@@ -28,10 +28,5 @@ fun Application.configureRouting() {
                 call.respondText(out)
             }
         }
-
     }
-
-
-
-
 }
