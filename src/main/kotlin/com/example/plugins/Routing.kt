@@ -14,7 +14,7 @@ fun Application.configureRouting() {
             if (degree == null) {
                 call.respondText("ERROR EMPTY PARAMETER")
             } else {
-                val out = "Seconds are " + (degree.toInt() * 120).toString()
+                val out = "Seconds are " + (degree.toInt() * 3600).toString()
                 call.respondText(out)
             }
         }
