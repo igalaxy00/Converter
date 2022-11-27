@@ -1,7 +1,14 @@
+.idea
+.gradle
+gradlew
+gradlew.bat
+gradle/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
 
 # C extensions
 *.so
