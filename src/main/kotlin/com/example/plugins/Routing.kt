@@ -28,5 +28,14 @@ fun Application.configureRouting() {
                 call.respondText(out)
             }
         }
+        get("/convert/radians") {
+            val degree = call.parameters[DEGREES]
+            if (degree == null) {
+                call.respondText("ERROR EMPTY PARAMETER")
+            } else {
+                val out = "Radians are " + (degree.toInt() * 0.01745329252).toString()
+                call.respondText(out)
+            }
+        }
     }
 }
