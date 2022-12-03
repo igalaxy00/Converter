@@ -1,5 +1,7 @@
 # Converter Service
-
+[![Tests](https://github.com/igalaxy00/Converter/actions/workflows/gradle-tests.yml/badge.svg?branch=master)](https://github.com/igalaxy00/Converter/actions/workflows/gradle-tests.yml) )
+(Develop
+[![Tests](https://github.com/igalaxy00/Converter/actions/workflows/gradle-tests.yml/badge.svg?branch=develop)](https://github.com/igalaxy00/Converter/actions/workflows/gradle-tests.yml) )
 Simple converter which takes HTTP POST request with [DEGREES ,MINUTES] parametres and returns [SECONDS,RADIANS] response.
 
 ## How to use
